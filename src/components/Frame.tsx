@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useCallback, useState } from "react";
-import { useFrameSDK } from "~/hooks/useFrameSDK";
+import { useFrameSDK } from "../hooks/useFrameSDK";
 import { GAME_SIZE, CELL_SIZE, GAME_SPEED } from "~/lib/constants";
 
 type Position = {
